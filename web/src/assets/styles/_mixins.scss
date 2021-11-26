@@ -1,0 +1,7 @@
+@mixin box() {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #E8E8ED;
+  border-radius: 10px;
+}

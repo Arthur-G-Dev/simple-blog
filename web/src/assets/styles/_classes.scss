@@ -1,0 +1,35 @@
+.content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-main {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: unset;
+  border: unset;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.text-error {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px
+}
+
+.input-error {
+  border: 1px solid red;
+  cursor: pointer
+}
+
+.ml-10 {margin-left: 10px}

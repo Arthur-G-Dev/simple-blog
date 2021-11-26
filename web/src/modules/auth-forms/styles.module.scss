@@ -1,0 +1,22 @@
+.signup {
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    margin-bottom: 20px;
+  }
+  .submitBtn {
+    padding: 5px;
+  }
+}
+
+.login {
+  .form {
+    margin-bottom: 20px;
+  }
+  .input:last-child {
+    margin-left: 15px;
+  }
+}

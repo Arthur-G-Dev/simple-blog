@@ -1,0 +1,62 @@
+@import '../../assets/styles';
+
+.articleForm {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    margin-bottom: 30px;
+  }
+}
+
+.listContainer {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      flex-basis: 400px;
+      align-items: center;
+    }
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .item {
+      @include box;
+      flex-basis: 400px;
+      flex-grow: 1;
+      margin: 20px;
+      cursor: pointer;
+      .title {
+        margin: 0
+      }
+      .footer {
+        display: flex;
+        color: #040849;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-top: auto;
+      }
+    }
+  }
+}
+
+.articleContainer {
+  @include box;
+  margin-top: 40px;
+  align-items: center;
+  width: 500px;
+  max-width: 100%;
+  * {margin: 5px 0}
+}
+
+.commentInputWrapper {
+  margin-top: 30px;
+}
+
+.test {}
